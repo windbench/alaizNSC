@@ -11,9 +11,10 @@ The project is integrated in the Phase 3 of the `IEA Task 31 Wakebench <https://
 
 Scope and Objectives
 --------------------
-The IEC TC 88 committee, “Wind energy generation systems,” initiated the work on a technical report to evaluate the potential application of NSC.
-The project team (PT12–4) has outlined the current state of the art in numerical flow modeling and summarized existing guidelines and past benchmarking experience on numerical model verification and validation (V&V). Based on the work undertaken, the team identified the important technical aspects for using flow simulation over terrain for wind application as well as the existing open issues including recommendations for further validation through benchmarking tests. The team concluded that further work is needed before a standard for NSC can be issued.
+The IEC TC 88 committee, “Wind energy generation systems,” initiated the work on a technical report to evaluate the potential application of NSC. The project team (PT12–4) has outlined the current state of the art in numerical flow modeling and summarized existing guidelines and past benchmarking experience on numerical model verification and validation (V&V). Based on the work undertaken, the team identified the important technical aspects for using flow simulation over terrain for wind application as well as the existing open issues including recommendations for further validation through benchmarking tests. The team concluded that further work is needed before a standard for NSC can be issued.
+
 Therefore, this benchmark seeks the following objectives:
+
 * Ascertain the maturity level of state-of-the-art models in the prediction of flow correction factors.
 * Define best practices for conducting and documenting numerical site calibration that could be included in the IEC 61400–12–4 text.
 * Identify limitations of current datasets for V&V that could be addressed by a dedicated experiment.
