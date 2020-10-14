@@ -1,0 +1,56 @@
+
+################################## Update this section
+
+
+authors : 'Javier Sanz Rodrigo'
+license : '20191029 Data Licensing Agreement Wakebench between CENER and METEODYN' 
+
+institution_edmo_code         : '4975' #EDMO id for your institution can be found here - https://edmo.seadatanet.org/search
+institution                   : 'CENER'
+institution_references        : 'http://www.cener.com/'
+comment                       : 'Mean and standard deviation of wind speed and turbulence intensity binned by 30º wind direction sectors and stability classes based on Froude number at MP5'
+date_update                   : '2020-09-11T15:30:00Z'
+history                       : '2020-09-11T15:30:00Z Creation'
+project                       : 'IEA Task 31 Wakebench Phase 3' 
+
+################################## End update this section
+
+
+
+
+
+
+
+################################# Discovery and identification
+# Mandatory
+site_code     : 'Alaiz'
+# Optional
+title                         : 'Alaiz Numerical Site Calibration Benchmark'
+summary                       : 'https://thewindvaneblog.com/numerical-site-calibration-benchmark-the-alaiz-case-b3767918d812'
+
+
+################################# Geo-spatial-temporal 
+data_type     : 'Alaiz Numerical Site Calibration Benchmark' 
+time_coverage_start : '2009-11-18T00:00:00Z'
+time_coverage_end : '2012-10-07T00:00:00Z'
+area          : 'Spain'
+
+################################# Conventions used 
+format_version     : '1.X'
+Conventions        : 'CF'
+netcdf_version : 'netCDF-4'
+
+################################# Publication information 
+# Optional
+references       : ''
+data_center      : ''
+update_interval  : 'void' 
+citation         : '' 
+doi              : ''
+
+
+
+  
+  
+  
+  
