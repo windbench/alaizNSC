@@ -18,9 +18,9 @@ from lib.variables_dictionary.variables import nc_global_attributes_from_yaml
 def A_vs_RS_scatter(sector, var, hue_var, masts_obs, iSC1, iSC2):
     WD_ref = masts_obs['MP5']['DVM118']
     if sector == 'N':
-        isector = WD_ref[(WD_ref >= 355) | (WD_ref <= 25)].index
+        isector = WD_ref[(WD_ref >= 335) | (WD_ref <= 25)].index
     elif sector == 'S':
-        isector = WD_ref[(WD_ref >= 145) & (WD_ref <= 195)].index
+        isector = WD_ref[(WD_ref >= 155) & (WD_ref <= 205)].index
 
     isectorSC1 = isector.intersection(iSC1)
     SC1_sector = masts_obs['MP5'].loc[isectorSC1]['VM118P'].rename('U_ref')
@@ -86,7 +86,7 @@ def ref_wind_conditions_diurnal_cycle(period,masts_obs):
     WD_ref = masts_obs['MP5']['DVM118']
     iN = WD_ref[(WD_ref >= 355) | (WD_ref <= 25)].index
     iN = period.intersection(iN)
-    iS = WD_ref[(WD_ref >= 145) & (WD_ref <= 195)].index
+    iS = WD_ref[(WD_ref >= 155) & (WD_ref <= 205)].index
     iS = period.intersection(iS)
 
     fig, ax = plt.subplots(2, 4, figsize = (22,8), sharex = True)
