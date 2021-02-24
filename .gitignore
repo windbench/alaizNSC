@@ -1,0 +1,10 @@
+# Exclude observations
+results/A*.nc
+
+# Exclude participant results
+outputs/
+!outputs/simID_site.xlsx
+.ipynb_checkpoints/
+
+# vim cache files
+*.swp
